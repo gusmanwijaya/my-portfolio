@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nama": "Online Webinar Course on Network Security",
+    "date": "April 23-25, 2021",
+    "img": "/sertifikat-1.png"
+  },
+  {
+    "id": 2,
+    "nama": "MERN Stack Web Development 2021",
+    "date": "September 6, 2021",
+    "img": "/sertifikat-2.png"
+  },
+  {
+    "id": 3,
+    "nama": "Website Development: Microservice",
+    "date": "August 27, 2021",
+    "img": "/sertifikat-3.png"
+  },
+  {
+    "id": 4,
+    "nama": "Flutter Mobile Developer",
+    "date": "July 13, 2020",
+    "img": "/sertifikat-4.png"
+  },
+  {
+    "id": 5,
+    "nama": "Full-Stack Website Laravel VueJS",
+    "date": "July 15, 2021",
+    "img": "/sertifikat-5.png"
+  },
+  {
+    "id": 6,
+    "nama": "E-Goverment and IT Infrastructure for University",
+    "date": "September 30, 2020",
+    "img": "/sertifikat-6.png"
+  },
+  {
+    "id": 7,
+    "nama": "UI/UX Design",
+    "date": "October 1, 2020",
+    "img": "/sertifikat-7.png"
+  },
+  {
+    "id": 8,
+    "nama": "Android TiketSaya Developer",
+    "date": "July 13, 2020",
+    "img": "/sertifikat-8.png"
+  },
+  {
+    "id": 9,
+    "nama": "Full-Stack Designer",
+    "date": "July 4, 2019",
+    "img": "/sertifikat-9.png"
+  },
+  {
+    "id": 10,
+    "nama": "Laravel: Backend for Designer",
+    "date": "August 2, 2021",
+    "img": "/sertifikat-10.png"
+  },
+  {
+    "id": 11,
+    "nama": "Full-Stack Website Designer 2021",
+    "date": "February 5, 2021",
+    "img": "/sertifikat-11.png"
+  },
+  {
+    "id": 12,
+    "nama": "Full-Stack JavaScript Developer",
+    "date": "February 20, 2022",
+    "img": "/sertifikat-12.png"
+  }
+]

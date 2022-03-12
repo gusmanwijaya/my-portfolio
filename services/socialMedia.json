@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nama": "Instagram",
+    "url": "https://www.instagram.com/gusmanwijaya/",
+    "icon": "/icon-ig.png"
+  },
+  {
+    "id": 2,
+    "nama": "Whatsapp",
+    "url": "https://wa.me/6281312397308/",
+    "icon": "/icon-wa.png"
+  },
+  {
+    "id": 3,
+    "nama": "Email",
+    "url": "mailto:gusman.w.jaya@gmail.com",
+    "icon": "/icon-gmail.png"
+  },
+  {
+    "id": 4,
+    "nama": "LinkedIn",
+    "url": "https://linkedin.com/in/gusman-wijaya-25997220b/",
+    "icon": "/icon-linkedin.png"
+  },
+  {
+    "id": 5,
+    "nama": "GitHub",
+    "url": "https://github.com/gusmanwijaya/",
+    "icon": "/icon-github.png"
+  }
+]

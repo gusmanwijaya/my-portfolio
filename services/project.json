@@ -1,0 +1,84 @@
+{
+  "fullstack": [
+    {
+      "id": 1,
+      "nama": "Server StoreGG",
+      "url": "https://storegg-server-gusmanwijaya.herokuapp.com/",
+      "img": "/project-5.png",
+      "data": {
+        "email": "admin@gmail.com",
+        "password": "rahasia"
+      }
+    },
+    {
+      "id": 2,
+      "nama": "StoreGG",
+      "url": "https://storegg-gusmanwijaya.vercel.app/",
+      "img": "/project-6.png",
+      "data": {
+        "email": "player@gmail.com",
+        "password": "rahasia"
+      }
+    },
+    {
+      "id": 3,
+      "nama": "Server Staycation",
+      "url": "https://staycation-server-gusmanwijaya.herokuapp.com/",
+      "img": "/project-9.png",
+      "data": {
+        "username": "admin",
+        "password": "rahasia"
+      }
+    },
+    {
+      "id": 4,
+      "nama": "Staycation",
+      "url": "https://staycation-gusmanwijaya.vercel.app/",
+      "img": "/project-11.png"
+    },
+    {
+      "id": 5,
+      "nama": "Clone Trello (To Do List App)",
+      "url": "https://trello-gusmanwijaya.vercel.app/",
+      "img": "/project-10.png"
+    }
+  ],
+  "frontend": [
+    {
+      "id": 1,
+      "nama": "Cyborg Ape",
+      "url": "https://cyborg-ape.vercel.app/",
+      "img": "/project-1.png"
+    },
+    {
+      "id": 2,
+      "nama": "Headbox Squad",
+      "url": "https://headboxsquad-gusmanwijaya.vercel.app/",
+      "img": "/project-4.png"
+    },
+    {
+      "id": 3,
+      "nama": "Website Furniture",
+      "url": "https://luxspace-gusmanwijaya.netlify.app/",
+      "img": "/project-3.png"
+    },
+    {
+      "id": 4,
+      "nama": "Blog Web",
+      "url": "https://blogweb-gusmanwijaya.vercel.app/",
+      "img": "/project-2.png"
+    },
+    {
+      "id": 5,
+      "nama": "Website Online Course",
+      "url": "https://memberpage-micro.vercel.app/login",
+      "img": "/project-7.png"
+    },
+    {
+      "id": 6,
+      "nama": "Slicing Design to Website using TailwindCSS",
+      "url": "https://slicing-tailwind.vercel.app/",
+      "img": "/project-8.png"
+    }
+  ]
+}

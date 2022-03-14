@@ -49,7 +49,7 @@ export default function Navbar() {
           rel="noopener noreferrer"
           className="btn border-none bg-indigo-600 hover:bg-indigo-700 shadow-xl shadow-indigo-600/30 capitalize px-6 py-3"
         >
-          Pay Him Now
+          Chat Him
         </a>
       </nav>
       {/* END: Desktop */}

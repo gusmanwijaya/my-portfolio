@@ -44,7 +44,7 @@ export default function Project() {
 
           {/* START: Mobile */}
           <div className="flex flex-col lg:hidden mt-2 mb-16 space-y-1">
-            <h2 className="text-slate-400 text-center">{value?.nama}</h2>
+            <h2 className="text-slate-400 text-center mt-5">{value?.nama}</h2>
             <a href={value?.url} target="_blank" rel="noopener noreferrer">
               <p className="text-slate-500 text-center truncate">
                 {value?.url}
@@ -92,7 +92,7 @@ export default function Project() {
 
           {/* START: Mobile */}
           <div className="flex flex-col lg:hidden mt-2 mb-16 space-y-1">
-            <h2 className="text-slate-400 text-center">{value?.nama}</h2>
+            <h2 className="text-slate-400 text-center mt-5">{value?.nama}</h2>
             <a href={value?.url} target="_blank" rel="noopener noreferrer">
               <p className="text-slate-500 text-center truncate">
                 {value?.url}

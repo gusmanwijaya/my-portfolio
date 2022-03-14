@@ -16,7 +16,7 @@ export default function Hero() {
           am a{" "}
           <span className="text-indigo-600 font-medium">web developer</span>
           . Are you looking for someone who can build a website?
-          <br className="sm:block hidden" />{" "}
+          <br className="lg:block hidden" />{" "}
           {`Don't worry because I am here to
           help you`}
         </p>
@@ -55,7 +55,7 @@ export default function Hero() {
       </div>
       {/* START: Image in desktop */}
       <div
-        className="w-full lg:w-1/2 hidden lg:flex text-center justify-center pr-0"
+        className="w-1/2 hidden lg:flex text-center justify-center pr-0"
         data-aos="zoom-in"
       >
         <Image
@@ -76,8 +76,10 @@ export default function Hero() {
         <Image
           className="absolute object-fit"
           src="/foto-jaya.png"
-          width={250}
-          height={350}
+          width={375}
+          height={550}
+          // width={250}
+          // height={350}
           alt="Jaya's Photo"
         />
       </div>

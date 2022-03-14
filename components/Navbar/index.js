@@ -6,6 +6,7 @@ export default function Navbar() {
   const router = useRouter();
   return (
     <>
+      {/* START: Destop */}
       <nav className="hidden md:flex items-center justify-between">
         <Link href="/" passHref>
           <a className="text-white">
@@ -51,6 +52,9 @@ export default function Navbar() {
           Pay Him Now
         </a>
       </nav>
+      {/* END: Desktop */}
+
+      {/* START: Mobile */}
       <div className="flex md:hidden justify-between items-center w-full p-4">
         <Link href="/" passHref>
           <a className="text-white">
@@ -59,6 +63,7 @@ export default function Navbar() {
         </Link>
         <HamburgerMenu />
       </div>
+      {/* END: Mobile */}
     </>
   );
 }

@@ -41,6 +41,26 @@
       "nama": "Clone Trello (To Do List App)",
       "url": "https://trello-gusmanwijaya.vercel.app/",
       "img": "/project-10.png"
+    },
+    {
+      "id": 6,
+      "nama": "Admin Semina",
+      "url": "https://semina-admin.vercel.app/",
+      "img": "/project-12.png",
+      "data": {
+        "username": "superadmin@gmail.com",
+        "password": "superadmin"
+      }
+    },
+    {
+      "id": 7,
+      "nama": "Semina",
+      "url": "https://semina-frontend-gusmanwijaya.vercel.app/",
+      "img": "/project-13.png",
+      "data": {
+        "username": "gusmanwijaya@gmail.com",
+        "password": "gusmanwijaya"
+      }
     }
   ],
   "frontend": [

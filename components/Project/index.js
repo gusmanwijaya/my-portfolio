@@ -1,107 +1,47 @@
-import Image from "next/image";
-import ProjectJson from "../../services/project.json";
+import React from "react";
+import ProjectJson from "../../services/projects.json";
+import ProjectItem from "./Item";
 
-export default function Project() {
+const Project = () => {
   return (
-    <>
-      <h2 className="text-2xl font-semibold text-indigo-600 mb-4">
-        The work he has completed
-      </h2>
-      <h2 className="my-14 lg:my-20 text-white font-normal text-lg lg:text-xl text-center">
-        Fullstack Website <br className="lg:hidden" /> (Back-end & Front-end)
-      </h2>
-      {ProjectJson?.fullstack.map((value, index) => (
-        <div key={index} className="card lg:mb-16 lg:card-side">
-          <a href={value?.url} target="_blank" rel="noopener noreferrer">
-            <figure data-aos="zoom-in">
-              <Image
-                src={value?.img}
-                width={500}
-                height={300}
-                className="object-center"
-                alt={value?.nama}
+    <div id="projects" className="w-full" data-aos="fade-up">
+      <div className="max-w-[1240px] mx-auto px-2 py-16">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+          Projects
+        </p>
+        <h2 className="py-4">What I&apos;ve Built</h2>
+        <p className="uppercase text-sm tracking-widest text-gray-600 text-center py-4">
+          Fullstack Website
+        </p>
+        <div className="grid md:grid-cols-2 gap-8">
+          {ProjectJson.fullstack.length > 0 &&
+            ProjectJson.fullstack.map((value) => (
+              <ProjectItem
+                key={value?.id}
+                title={value?.name}
+                backgroundImg={value?.img}
+                projectUrl={value?.url}
+                data={value?.data}
               />
-            </figure>
-          </a>
-
-          {/* START: Desktop */}
-          <div className="card-body lg:block hidden">
-            <h2 className="card-title text-slate-400 mb-4">{value?.nama}</h2>
-            <a href={value?.url} target="_blank" rel="noopener noreferrer">
-              <p className="text-slate-500">{value?.url}</p>
-            </a>
-            {value?.data && (
-              <p className="mt-8 text-slate-600">
-                {value?.data?.email
-                  ? `Email : ${value?.data?.email}`
-                  : `Username : ${value?.data?.username}`}{" "}
-                <br />
-                Password : {value?.data?.password}
-              </p>
-            )}
-          </div>
-          {/* END: Desktop */}
-
-          {/* START: Mobile */}
-          <div className="flex flex-col lg:hidden mt-2 mb-16 space-y-1">
-            <h2 className="text-slate-400 text-center mt-5">{value?.nama}</h2>
-            <a href={value?.url} target="_blank" rel="noopener noreferrer">
-              <p className="text-slate-500 text-center truncate">
-                {value?.url}
-              </p>
-            </a>
-            {value?.data && (
-              <p className="text-slate-600 text-center">
-                {value?.data?.email
-                  ? `Email : ${value?.data?.email}`
-                  : `Username : ${value?.data?.username}`}{" "}
-                <br />
-                Password : {value?.data?.password}
-              </p>
-            )}
-          </div>
-          {/* END: Mobile */}
+            ))}
         </div>
-      ))}
-
-      <h2 className="my-14 lg:my-20 text-white font-normal text-lg lg:text-xl text-center">
-        Front-end Website
-      </h2>
-      {ProjectJson?.frontend.map((value, index) => (
-        <div key={index} className="card lg:mb-16 lg:card-side">
-          <a href={value?.url} target="_blank" rel="noopener noreferrer">
-            <figure data-aos="zoom-in">
-              <Image
-                src={value?.img}
-                width={500}
-                height={300}
-                className="object-center"
-                alt={value?.nama}
+        <p className="uppercase text-sm tracking-widest text-gray-600 text-center mt-10 py-4">
+          Front-end Website
+        </p>
+        <div className="grid md:grid-cols-2 gap-8">
+          {ProjectJson.frontend.length > 0 &&
+            ProjectJson.frontend.map((value) => (
+              <ProjectItem
+                key={value?.id}
+                title={value?.name}
+                backgroundImg={value?.img}
+                projectUrl={value?.url}
               />
-            </figure>
-          </a>
-
-          {/* START: Desktop */}
-          <div className="card-body lg:block hidden">
-            <h2 className="card-title text-slate-400 mb-4">{value?.nama}</h2>
-            <a href={value?.url} target="_blank" rel="noopener noreferrer">
-              <p className="text-slate-500">{value?.url}</p>
-            </a>
-          </div>
-          {/* END: Desktop */}
-
-          {/* START: Mobile */}
-          <div className="flex flex-col lg:hidden mt-2 mb-16 space-y-1">
-            <h2 className="text-slate-400 text-center mt-5">{value?.nama}</h2>
-            <a href={value?.url} target="_blank" rel="noopener noreferrer">
-              <p className="text-slate-500 text-center truncate">
-                {value?.url}
-              </p>
-            </a>
-          </div>
-          {/* END: Mobile */}
+            ))}
         </div>
-      ))}
-    </>
+      </div>
+    </div>
   );
-}
+};
+
+export default Project;

@@ -1,33 +1,26 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
+import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Home from "../components/Home";
+import About from "../components/About";
+import Skill from "../components/Skill";
 import Project from "../components/Project";
-import SeeCertificate from "../components/SeeCertificate";
+import Certificate from "../components/Certificate";
+import Footer from "../components/Footer";
 
-export default function Home() {
+export default function Portfolio() {
   return (
     <>
-      <Header title="Welcome" />
-      <section className="px-8 py-8 md:px-20">
-        <Navbar />
-      </section>
-
-      <section>
-        <Hero />
-      </section>
-
-      <section id="project" className="px-8 py-8 md:px-20">
-        <Project />
-      </section>
-
-      <section className="px-8 py-8 md:px-20">
-        <SeeCertificate />
-      </section>
-
-      <section>
-        <Footer />
-      </section>
+      <Head>
+        <title>{"Gusman Wijaya's Portfolio"}</title>
+        <meta name="description" content="Gusman Wijaya's Portfolio" />
+      </Head>
+      <Navbar />
+      <Home />
+      <About />
+      <Skill />
+      <Project />
+      <Certificate />
+      <Footer />
     </>
   );
 }

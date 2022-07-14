@@ -4,14 +4,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-      },
-    },
+    extend: {},
   },
-  plugins: [require("daisyui"), require("@tailwindcss/aspect-ratio")],
-  daisyui: {
-    themes: false,
-  },
+  plugins: [],
 };

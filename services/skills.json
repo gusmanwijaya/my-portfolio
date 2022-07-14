@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "MongoDb",
+    "src": "/skills/mongo.png"
+  },
+  {
+    "id": 2,
+    "name": "ExpressJs",
+    "src": "/skills/express.png"
+  },
+  {
+    "id": 3,
+    "name": "ReactJs",
+    "src": "/skills/react.png"
+  },
+  {
+    "id": 4,
+    "name": "NodeJs",
+    "src": "/skills/node.png"
+  },
+  {
+    "id": 5,
+    "name": "CSS",
+    "src": "/skills/css.png"
+  },
+  {
+    "id": 6,
+    "name": "HTML",
+    "src": "/skills/html.png"
+  },
+  {
+    "id": 7,
+    "name": "JavaScript",
+    "src": "/skills/javascript.png"
+  },
+  {
+    "id": 8,
+    "name": "NextJs",
+    "src": "/skills/nextjs.png"
+  },
+  {
+    "id": 9,
+    "name": "TailwindCSS",
+    "src": "/skills/tailwind.png"
+  },
+  {
+    "id": 10,
+    "name": "MySQL",
+    "src": "/skills/mysql.png"
+  },
+  {
+    "id": 11,
+    "name": "Laravel",
+    "src": "/skills/laravel.png"
+  }
+]

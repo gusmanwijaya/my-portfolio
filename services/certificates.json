@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Online Webinar Course on Network Security",
+    "date": "April 23-25, 2021",
+    "img": "/certificates/certificate-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Bootcamp MERN 2022",
+    "date": "April 26, 2022",
+    "img": "/certificates/certificate-13.png"
+  },
+  {
+    "id": 3,
+    "name": "MERN Stack Web Development 2021",
+    "date": "September 6, 2021",
+    "img": "/certificates/certificate-2.png"
+  },
+  {
+    "id": 4,
+    "name": "Website Development: Microservice",
+    "date": "August 27, 2021",
+    "img": "/certificates/certificate-3.png"
+  },
+  {
+    "id": 5,
+    "name": "Flutter Mobile Developer",
+    "date": "July 13, 2020",
+    "img": "/certificates/certificate-4.png"
+  },
+  {
+    "id": 6,
+    "name": "Full-Stack Website Laravel VueJS",
+    "date": "July 15, 2021",
+    "img": "/certificates/certificate-5.png"
+  },
+  {
+    "id": 7,
+    "name": "E-Goverment and IT Infrastructure for University",
+    "date": "September 30, 2020",
+    "img": "/certificates/certificate-6.png"
+  },
+  {
+    "id": 8,
+    "name": "UI/UX Design",
+    "date": "October 1, 2020",
+    "img": "/certificates/certificate-7.png"
+  },
+  {
+    "id": 9,
+    "name": "Android TiketSaya Developer",
+    "date": "July 13, 2020",
+    "img": "/certificates/certificate-8.png"
+  },
+  {
+    "id": 10,
+    "name": "Full-Stack Designer",
+    "date": "July 4, 2019",
+    "img": "/certificates/certificate-9.png"
+  },
+  {
+    "id": 11,
+    "name": "Laravel: Backend for Designer",
+    "date": "August 2, 2021",
+    "img": "/certificates/certificate-10.png"
+  },
+  {
+    "id": 12,
+    "name": "Full-Stack Website Designer 2021",
+    "date": "February 5, 2021",
+    "img": "/certificates/certificate-11.png"
+  },
+  {
+    "id": 13,
+    "name": "Full-Stack JavaScript Developer",
+    "date": "February 20, 2022",
+    "img": "/certificates/certificate-12.png"
+  }
+]

@@ -2,63 +2,63 @@
   "fullstack": [
     {
       "id": 1,
-      "nama": "Server StoreGG",
+      "name": "Server StoreGG",
       "url": "https://storegg-server-gusmanwijaya.herokuapp.com/",
-      "img": "/project-5.png",
+      "img": "/projects/project-5.png",
       "data": {
-        "email": "admin@gmail.com",
+        "credential": "admin@gmail.com",
         "password": "rahasia"
       }
     },
     {
       "id": 2,
-      "nama": "StoreGG",
+      "name": "StoreGG",
       "url": "https://storegg-gusmanwijaya.vercel.app/",
-      "img": "/project-6.png",
+      "img": "/projects/project-6.png",
       "data": {
-        "email": "player@gmail.com",
+        "credential": "player@gmail.com",
         "password": "rahasia"
       }
     },
     {
       "id": 3,
-      "nama": "Server Staycation",
+      "name": "Server Staycation",
       "url": "https://staycation-server-gusmanwijaya.herokuapp.com/",
-      "img": "/project-9.png",
+      "img": "/projects/project-9.png",
       "data": {
-        "username": "admin",
+        "credential": "admin",
         "password": "rahasia"
       }
     },
     {
       "id": 4,
-      "nama": "Staycation",
+      "name": "Staycation",
       "url": "https://staycation-gusmanwijaya.vercel.app/",
-      "img": "/project-11.png"
+      "img": "/projects/project-11.png"
     },
     {
       "id": 5,
-      "nama": "Clone Trello (To Do List App)",
+      "name": "Clone Trello (To Do List App)",
       "url": "https://trello-gusmanwijaya.vercel.app/",
-      "img": "/project-10.png"
+      "img": "/projects/project-10.png"
     },
     {
       "id": 6,
-      "nama": "Admin Semina",
+      "name": "Admin Semina",
       "url": "https://semina-admin.vercel.app/",
-      "img": "/project-12.png",
+      "img": "/projects/project-12.png",
       "data": {
-        "username": "superadmin@gmail.com",
+        "credential": "superadmin@gmail.com",
         "password": "superadmin"
       }
     },
     {
       "id": 7,
-      "nama": "Semina",
+      "name": "Semina",
       "url": "https://semina-frontend-gusmanwijaya.vercel.app/",
-      "img": "/project-13.png",
+      "img": "/projects/project-13.png",
       "data": {
-        "username": "gusmanwijaya@gmail.com",
+        "credential": "gusmanwijaya@gmail.com",
         "password": "gusmanwijaya"
       }
     }
@@ -66,39 +66,39 @@
   "frontend": [
     {
       "id": 1,
-      "nama": "Cyborg Ape",
+      "name": "Cyborg Ape",
       "url": "https://cyborg-ape.vercel.app/",
-      "img": "/project-1.png"
+      "img": "/projects/project-1.png"
     },
     {
       "id": 2,
-      "nama": "Headbox Squad",
+      "name": "Headbox Squad",
       "url": "https://headboxsquad-gusmanwijaya.vercel.app/",
-      "img": "/project-4.png"
+      "img": "/projects/project-4.png"
     },
     {
       "id": 3,
-      "nama": "Website Furniture",
+      "name": "Website Furniture",
       "url": "https://luxspace-gusmanwijaya.netlify.app/",
-      "img": "/project-3.png"
+      "img": "/projects/project-3.png"
     },
     {
       "id": 4,
-      "nama": "Blog Web",
+      "name": "Blog Web",
       "url": "https://blogweb-gusmanwijaya.vercel.app/",
-      "img": "/project-2.png"
+      "img": "/projects/project-2.png"
     },
     {
       "id": 5,
-      "nama": "Website Online Course",
+      "name": "Website Online Course",
       "url": "https://memberpage-micro.vercel.app/login",
-      "img": "/project-7.png"
+      "img": "/projects/project-7.png"
     },
     {
       "id": 6,
-      "nama": "Slicing Design to Website using TailwindCSS",
+      "name": "Slicing Design to Website using TailwindCSS",
       "url": "https://slicing-tailwind.vercel.app/",
-      "img": "/project-8.png"
+      "img": "/projects/project-8.png"
     }
   ]
 }

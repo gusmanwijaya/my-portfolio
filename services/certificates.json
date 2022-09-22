@@ -76,5 +76,11 @@
     "name": "Full-Stack JavaScript Developer",
     "date": "February 20, 2022",
     "img": "/certificates/certificate-12.png"
+  },
+  {
+    "id": 14,
+    "name": "Full-Stack Laravel & React Native",
+    "date": "May 03, 2022",
+    "img": "/certificates/certificate-14.png"
   }
 ]

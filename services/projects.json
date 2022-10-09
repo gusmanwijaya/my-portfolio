@@ -78,24 +78,30 @@
     },
     {
       "id": 3,
+      "name": "PT Bukit Asam",
+      "url": "https://bukit-asam-app.vercel.app/",
+      "img": "/projects/project-14.png"
+    },
+    {
+      "id": 4,
       "name": "Website Furniture",
       "url": "https://luxspace-gusmanwijaya.netlify.app/",
       "img": "/projects/project-3.png"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Blog Web",
       "url": "https://blogweb-gusmanwijaya.vercel.app/",
       "img": "/projects/project-2.png"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Website Online Course",
       "url": "https://memberpage-micro.vercel.app/login",
       "img": "/projects/project-7.png"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Slicing Design to Website using TailwindCSS",
       "url": "https://slicing-tailwind.vercel.app/",
       "img": "/projects/project-8.png"

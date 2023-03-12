@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import {
+  AiOutlineClose,
+  AiOutlineMail,
+  AiOutlineMenu,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsWhatsapp } from "react-icons/bs";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -161,12 +165,12 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://api.whatsapp.com/send/?phone=6281312397308&text=Hi, Gusman Wijaya&type=phone_number&app_absent=0"
+                  href="https://www.instagram.com/gusmanwijaya/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsWhatsapp />
+                    <AiOutlineInstagram />
                   </div>
                 </a>
               </div>

@@ -138,7 +138,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://linkedin.com/in/gusman-wijaya-25997220b/"
+                  href="https://linkedin.com/in/gusmanwijaya/"
                   target="_blank"
                   rel="noreferrer"
                 >

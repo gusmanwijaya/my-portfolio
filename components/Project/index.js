@@ -25,6 +25,7 @@ const Project = () => {
               />
             ))}
         </div>
+        <div className="h-14" />
         <p className="uppercase text-sm tracking-widest text-gray-600 text-center mt-10 py-4">
           Front-end Website
         </p>

@@ -1,6 +1,5 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
+import { AiOutlineMail, AiOutlineInstagram } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Home = () => {
@@ -21,7 +20,7 @@ const Home = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
-              href="https://linkedin.com/in/gusman-wijaya-25997220b/"
+              href="https://linkedin.com/in/gusmanwijaya/"
               target="_blank"
               rel="noreferrer"
             >
@@ -48,12 +47,12 @@ const Home = () => {
               </div>
             </a>
             <a
-              href="https://api.whatsapp.com/send/?phone=6281312397308&text=Hi, Gusman Wijaya&type=phone_number&app_absent=0"
+              href="https://www.instagram.com/gusmanwijaya/"
               target="_blank"
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsWhatsapp />
+                <AiOutlineInstagram />
               </div>
             </a>
           </div>

@@ -21,8 +21,8 @@ const Skill = () => {
                   <div className="m-auto">
                     <Image
                       src={value?.src}
-                      width="64px"
-                      height="64px"
+                      width={64}
+                      height={64}
                       alt={value?.name}
                     />
                   </div>

@@ -35,10 +35,8 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
-          <a>
-            <p className="cursor-pointer text-[#5651e5]">Gusman Wijaya</p>
-          </a>
+        <Link href="/" passHref>
+          <p className="cursor-pointer text-[#5651e5]">Gusman Wijaya</p>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -86,10 +84,8 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
-                <a>
-                  <p className="cursor-pointer text-[#5651e5]">Gusman Wijaya</p>
-                </a>
+              <Link href="/" passHref>
+                <p className="cursor-pointer text-[#5651e5]">Gusman Wijaya</p>
               </Link>
               <div
                 onClick={handleNav}
